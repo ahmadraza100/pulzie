@@ -67,7 +67,7 @@ export function mountDevTools(container) {
     return h("div", { style: S.panel },
       h("div", { style: S.header },
         h("div", { style: S.dot }),
-        h("span", { style: S.title }, "PulseUI")
+        h("span", { style: S.title }, "Pulzie DevTools")
       ),
       h("div", { style: S.body },
         ...signalRows,

@@ -1,14 +1,14 @@
 {
-  "name": "pulse-ui",
+  "name": "pulzie",
   "version": "1.0.0",
   "type": "module",
   "description": "A fine-grained reactive UI framework built from scratch",
-  "main": "./dist/pulse-ui.umd.cjs",
-  "module": "./dist/pulse-ui.js",
+  "main": "./dist/pulzie.umd.cjs",
+  "module": "./dist/pulzie.js",
   "exports": {
     ".": {
-      "import": "./dist/pulse-ui.js",
-      "require": "./dist/pulse-ui.umd.cjs"
+      "import": "./dist/pulzie.js",
+      "require": "./dist/pulzie.umd.cjs"
     }
   },
   "files": ["dist", "src"],

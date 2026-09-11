@@ -13,8 +13,8 @@ export default defineConfig(({ command }) => ({
   build: {
     lib: {
       entry: resolve("src/index.js"),
-      name: "PulseUI",
-      fileName: "pulse-ui",
+      name: "pUlzie",
+      fileName: "pulzie",
       formats: ["es", "umd"],
     },
     outDir: resolve("dist"),

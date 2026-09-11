@@ -10,9 +10,9 @@ before(() => {
 });
 
 test("renders a single element with text content", () => {
-  const node = createDOM(h("h1", null, "Hello PulseUI"));
+  const node = createDOM(h("h1", null, "Hello Pulzie"));
   assert.strictEqual(node.tagName, "H1");
-  assert.strictEqual(node.textContent, "Hello PulseUI");
+  assert.strictEqual(node.textContent, "Hello Pulzie");
 });
 
 test("renders an element with attributes applied", () => {

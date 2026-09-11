@@ -112,13 +112,13 @@ function Nav() {
   return (
     <nav class="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-4 border-b border-white/8 backdrop-blur-xl bg-zinc-950/75">
       <span class="font-bold tracking-tight text-white text-xl">
-        Pulse<span class="text-violet-400">UI</span>
+        Pul<span class="text-violet-400">zie</span>
       </span>
       <div class="flex items-center gap-6">
         <a href="#how-it-works" class="text-sm text-zinc-500 hover:text-white transition-colors hidden sm:block">How it works</a>
         <a href="#demo" class="text-sm text-zinc-500 hover:text-white transition-colors hidden sm:block">Demo</a>
         <a
-          href="https://github.com/ahmadraza100/pulse-ui"
+          href="https://github.com/ahmadraza100/pulzie"
           class="text-sm text-zinc-300 border border-zinc-700 hover:border-zinc-500 hover:text-white px-3 py-1.5 rounded-lg transition-all"
         >
           GitHub →
@@ -161,7 +161,7 @@ function Hero() {
 
             <div class="flex gap-3 flex-wrap">
               <a
-                href="https://github.com/ahmadraza100/pulse-ui"
+                href="https://github.com/ahmadraza100/pulzie"
                 class="inline-flex items-center gap-2 px-[22px] py-[11px] bg-white text-zinc-950 text-sm font-semibold rounded-[10px] no-underline tracking-[-0.01em] hover:bg-zinc-100 transition-colors"
               >
                 View on GitHub
@@ -456,7 +456,7 @@ function LiveWriter() {
 function StatBadge({ label, value, warn = false }) {
   return (
     <div class="flex flex-col items-center">
-      <span class={`text-lg font-mono font-bold ${warn ? "text-red-500" : "text-gray-800"}`}>{value}</span>
+      <span class={`text-lg font-mono font-bold ${warn ? "text-red-500" : "text-gray-100"}`}>{value}</span>
       <span class="text-[10px] text-gray-400">{label}</span>
     </div>
   );
@@ -524,7 +524,7 @@ function DemoSection() {
             Live demos
           </h2>
           <p class="text-[clamp(0.95rem,1.3vw,1.075rem)] text-zinc-500 mt-3.5 leading-[1.75] max-w-[420px] mx-auto">
-            Every interaction is powered by PulseUI — no React, no Vue, just signals.
+            Every interaction is powered by Pulzie — no React, no Vue, just signals.
           </p>
         </div>
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -545,14 +545,14 @@ function Footer() {
     <footer class="bg-zinc-950 border-t border-zinc-900 py-10 px-6">
       <div class="max-w-[1100px] mx-auto flex items-center justify-between flex-wrap gap-3">
         <span class="text-sm font-bold text-white">
-          Pulse<span class="text-violet-400">UI</span>
+          Pul<span class="text-violet-400">zie</span>
           <span class="font-normal text-zinc-600 text-xs ml-2.5">v1.0.0</span>
         </span>
         <span class="text-xs text-zinc-600">
           Built by Ahmad Raza · MIT License
         </span>
         <a
-          href="https://github.com/ahmadraza100/pulse-ui"
+          href="https://github.com/ahmadraza100/pulzie"
           class="text-[0.8rem] text-zinc-600 no-underline transition-colors hover:text-zinc-400"
         >
           github →
