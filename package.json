@@ -1,0 +1,31 @@
+{
+  "name": "pulse-ui",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A fine-grained reactive UI framework built from scratch",
+  "main": "./dist/pulse-ui.umd.cjs",
+  "module": "./dist/pulse-ui.js",
+  "exports": {
+    ".": {
+      "import": "./dist/pulse-ui.js",
+      "require": "./dist/pulse-ui.umd.cjs"
+    }
+  },
+  "files": ["dist", "src"],
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "start": "vite",
+    "test": "node --test tests/*.test.js",
+    "benchmark": "node examples/benchmark.js"
+  },
+  "keywords": ["reactive", "signals", "ui", "framework", "vdom"],
+  "author": "Ahmad Raza",
+  "license": "MIT",
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "jsdom": "^29.1.1",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.3.0"
+  }
+}
