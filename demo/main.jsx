@@ -150,7 +150,7 @@ function Hero() {
             </div>
 
             <h1 class="text-[clamp(3rem,7.5vw,4.5rem)] font-black text-white leading-[1.04] tracking-[-0.05em] mb-6">
-              A UI framework<br />
+              A  framework<br />
               <span class="text-violet-400">you can read</span><br />
               in an afternoon.
             </h1>
@@ -159,16 +159,16 @@ function Hero() {
               Signals, virtual DOM diffing, undo/redo, and devtools — ~300 lines of vanilla JS. Read it, fork it, make it yours.
             </p>
 
-            <div class="flex gap-3 flex-wrap">
+            <div class="flex gap-2 flex-wrap">
               <a
                 href="https://github.com/ahmadraza100/pulzie"
-                class="inline-flex items-center gap-2 px-[22px] py-[11px] bg-white text-zinc-950 text-sm font-semibold rounded-[10px] no-underline tracking-[-0.01em] hover:bg-zinc-100 transition-colors"
+                class="inline-flex items-center gap-2 px-[22px] py-[11px] bg-white text-zinc-950 text-xs font-semibold rounded-[10px] no-underline tracking-[-0.01em] hover:bg-zinc-100 transition-colors"
               >
                 View on GitHub
               </a>
               <a
                 href="#demo"
-                class="inline-flex items-center px-[22px] py-[11px] border border-zinc-800 text-zinc-400 text-sm rounded-[10px] no-underline transition-all hover:border-zinc-600 hover:text-zinc-200"
+                class="inline-flex items-center px-[22px] py-[11px] border border-zinc-800 text-zinc-400 text-xs rounded-[10px] no-underline transition-all hover:border-zinc-600 hover:text-zinc-200"
               >
                 Try the demo ↓
               </a>
@@ -262,9 +262,8 @@ function Features() {
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
 
           <div class="bg-zinc-950 border border-zinc-800 rounded-[20px] p-8 flex flex-col gap-5">
-            <div class="w-9 h-9 rounded-[9px] bg-black border border-zinc-600 flex items-center justify-center text-base">⚡</div>
             <div>
-              <div class="text-[0.95rem] font-bold text-violet-400 mb-2">Signals</div>
+              <div class="text-[1.3rem] font-bold text-white mb-2">Signals</div>
               <div class="text-[0.85rem] text-zinc-500 leading-[1.65]">
                 A signal is a callable value. Read it, write it, subscribe to it. Only effects that read a signal re-run when it changes — nothing else.
               </div>
@@ -288,9 +287,8 @@ function Features() {
           </div>
 
           <div class="bg-zinc-950 border border-zinc-800 rounded-[20px] p-8 flex flex-col gap-5">
-            <div class="w-9 h-9 rounded-[9px] bg-black border border-zinc-600 flex items-center justify-center text-base">◎</div>
             <div>
-              <div class="text-[0.95rem] font-bold text-violet-400 mb-2">Effects + vDOM</div>
+              <div class="text-[1.3rem] font-bold text-white mb-2">Effects + vDOM</div>
               <div class="text-[0.85rem] text-zinc-500 leading-[1.65]">
                 Components are plain functions. The renderer wraps them in an effect, diffs the vnode tree on re-run, and patches only what changed in the real DOM.
               </div>
@@ -311,11 +309,10 @@ function Features() {
           </div>
 
           <div class="bg-zinc-950 border border-zinc-800 rounded-[20px] p-8 flex flex-col gap-5">
-            <div class="w-9 h-9 rounded-[9px] bg-black border border-zinc-600 flex items-center justify-center text-base">↺</div>
             <div>
-              <div class="text-[0.95rem] font-bold text-violet-400 mb-2">History</div>
+              <div class="text-[1.3rem] font-bold text-white mb-2">History</div>
               <div class="text-[0.85rem] text-zinc-500 leading-[1.65]">
-                Wrap any signal with <span class="font-mono text-gray-900">track()</span> and get undo, redo, and replay for free. New changes after an undo truncate the forward stack.
+                Wrap any signal with <span class="font-mono text-gray-100">track()</span> and get undo, redo, and replay for free. New changes after an undo truncate the forward stack.
               </div>
             </div>
             <div class="bg-[#0c0c0e] border border-zinc-800 rounded-xl p-4 mt-auto">
