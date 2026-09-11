@@ -17,8 +17,8 @@ export default defineConfig(({ command, mode }) => {
       : {
           lib: {
             entry: resolve("src/index.js"),
-            name: "PulseUI",
-            fileName: "pulse-ui",
+            name: "Pulzie",
+            fileName: "pulzie",
             formats: ["es", "umd"],
           },
           outDir: resolve("dist"),

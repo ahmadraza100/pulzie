@@ -11,10 +11,11 @@
       "require": "./dist/pulzie.umd.cjs"
     }
   },
-  "files": ["dist", "src"],
+  "files": ["dist", "src", "README.md"],
   "scripts": {
     "build": "vite build",
     "build:demo": "vite build --mode demo",
+    "prepublishOnly": "npm test && npm run build",
     "dev": "vite",
     "start": "vite",
     "test": "node --test tests/*.test.js",
