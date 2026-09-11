@@ -4,7 +4,7 @@ A reactive UI framework I built from scratch in vanilla JavaScript. No libraries
 
 Signals drive reactivity. When a signal changes, only the effects that read it re-run. The DOM updates surgically, not from a full re-render.
 
-**[Live demo →](https://ahmadraza100.github.io/pulzie)**
+**[Live demo →](pulzie.vercel.app)**
 
 ---
 
